@@ -19,9 +19,3 @@ class Solution:
 
     def canJump(self, nums: List[int]) -> bool:
         return self.jump(nums,0,nums[0])
-
-assert Solution().canJump([3,0,8,2,0,0,1]) == True
-assert Solution().canJump([2,3,1,1,4]) == True
-assert Solution().canJump([3,2,1,0,4]) == False
-assert Solution().canJump([0]) == True
-assert Solution().canJump([2,5,0,0]) == True

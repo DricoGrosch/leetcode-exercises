@@ -1,7 +1,5 @@
 from typing import List
 
-
-
 class Solution:
     def get_next_index(self,nums,i,reachable_index)->int:
         max_reachable_index = 0
@@ -33,9 +31,3 @@ class Solution:
         return total_jumps
     
 solution = Solution()
-print(solution.jump([7,0,9,6,9,6,1,7,9,0,1,2,9,0,3]))
-print(solution.jump([4,1,1,3,1,1,1]))
-print(solution.jump([1,2,1,1,1]))
-print(solution.jump([2,3,1,1,4]))
-print(solution.jump([2,3,0,1,4]))
-print(solution.jump([0]))
