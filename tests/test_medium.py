@@ -1,6 +1,7 @@
+from ssl import ALERT_DESCRIPTION_BAD_CERTIFICATE_STATUS_RESPONSE
 import unittest
-from medium.jump_game_2 import Solution as SolutionJump2 
-from medium.jump_game import Solution as SolutionJump1
+from src.medium.jump_game_2 import Solution as SolutionJump2 
+from src.medium.jump_game import Solution as SolutionJump1
 
 class TestMediumExercises(unittest.TestCase):
     def test_jump_game_1(self):
@@ -19,3 +20,5 @@ class TestMediumExercises(unittest.TestCase):
         self.assertEqual(solution.jump([2,3,0,1,4]),2)
         self.assertEqual(solution.jump([0]),0)
         self.assertEqual(solution.jump([7,0,9,6,9,6,1,7,9,0,1,2,9,0,3]),2)
+
+        

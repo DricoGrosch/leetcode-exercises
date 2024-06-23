@@ -1,5 +1,5 @@
 from unittest import TestCase
-from easy.palindrome_string import Solution as PalindromeSolution
+from src.easy.palindrome_string import Solution as PalindromeSolution
 class TestEasyExercises(TestCase):
 
 
